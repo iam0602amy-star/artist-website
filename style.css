@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: 'Neuton', serif; 
+  background: #D9D9D9;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #1B1A1A;
+}
+
+h1 { font-size: 52px; margin-bottom: 10px; }
+h2 { font-size: 28px; margin-bottom: 30px; border-left: 5px solid #1B1A1A; padding-left: 15px; }
+
+
+.logo, .nav-links a, .btn, summary, .hero-subtitle-top, .footer-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(237, 237, 233, 0.95);
+  border-bottom: 2px solid #1B1A1A;
+  z-index: 1000;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0; 
+}
+
+.logo { font-weight: bold; font-size: 22px; letter-spacing: 1px; }
+
+.nav-links a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+header {
+  text-align: left;
+  padding: 100px 0 60px; 
+}
+
+.hero-subtitle-top { font-weight: 600; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 0; font-size: 14px; }
+.subtitle { font-size: 24px; color: #333; max-width: 650px; margin-bottom: 40px; }
+
+.hero-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+
+section { padding: 100px 0; }
+.alt { background: #c7c7c7; }
+
+
+.horizontal-scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 0 40px 40px 40px; /* Space for the scrollbar */
+  scrollbar-width: thin; /* For Firefox */
+}
+
+.horizontal-scroll-gallery img {
+  height: 70vh; /* Images take up 70% of the screen height */
+  width: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+
+.flash-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flash-list img {
+  width: calc(33.33% - 20px);
+  height: auto;
+  background: F5EBE0;
+  padding: 10px;
+}
+
+.full-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 30px;
+}
+
+.full-carousel img {
+  height: 400px;
+  flex-shrink: 0;
+}
+
+
+.btn {
+  display: inline-block;
+  background: #1B1A1A;
+  color: #F5EBE0;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+
+.faq-list { max-width: 800px; margin-bottom: 40px; }
+details {
+  border-bottom: 2px solid #1B1A1A;
+  padding: 20px 0;
+}
+
+summary { font-size: 18px; font-weight: 600; cursor: pointer; color: #000; }
+details p { 
+  color: #1B1A1A; 
+  font-size: 18px; 
+  margin-top: 15px; 
+}
+
+
+.site-footer {
+  background: #1B1A1A;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.footer-brand { font-size: 28px; margin-bottom: 20px; }
+.footer-links a { color: #fff; text-decoration: none; display: block; margin-bottom: 10px; font-family: 'Poppins', sans-serif; font-size: 14px; }
+.footer-links p { opacity: 0.7; font-size: 14px; }
